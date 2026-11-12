@@ -1,5 +1,18 @@
 # Shizuku
 
+This repository is a personal fork of [Shizuku](https://github.com/RikkaApps/Shizuku), maintained
+by [ZIDOUZI](https://github.com/ZIDOUZI). It focuses on Android 17 compatibility and reproducible
+self-built APKs for personal use.
+
+- Fork source: <https://github.com/ZIDOUZI/Shizuku>
+- Downloads and updates: <https://github.com/ZIDOUZI/Shizuku/releases>
+- Issues: <https://github.com/ZIDOUZI/Shizuku/issues>
+- Upstream project: <https://github.com/RikkaApps/Shizuku>
+
+The Android package ID remains `moe.shizuku.privileged.api` for compatibility with existing
+Shizuku clients. APKs built from this fork use their own signing key, so they can only replace an
+existing installation after uninstalling the upstream-signed app.
+
 ## Background
 
 When developing apps that requires root, the most common method is to run some commands in the su shell. For example, there is an app that uses the `pm enable/disable` command to enable/disable components.
@@ -15,7 +28,8 @@ Shizuku uses a completely different way. See detailed description below.
 
 ## User guide & Download
 
-<https://shizuku.rikka.app/>
+Use the upstream guide at <https://shizuku.rikka.app/> and download fork builds from
+<https://github.com/ZIDOUZI/Shizuku/releases>.
 
 ## How does Shizuku work?
 
