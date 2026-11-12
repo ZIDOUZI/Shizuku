@@ -1,5 +1,5 @@
 blank_issues_enabled: false
 contact_links:
-  - name: Shizuku Fork Issues
-    url: https://github.com/ZIDOUZI/Shizuku/issues
-    about: Report fork-specific bugs and build issues here.
+  - name: Shizuku upstream issues
+    url: https://github.com/RikkaApps/Shizuku/issues/new/choose
+    about: This fork does not accept bug reports. Report Shizuku-related problems upstream.

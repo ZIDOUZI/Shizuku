@@ -6,8 +6,11 @@ self-built APKs for personal use.
 
 - Fork source: <https://github.com/ZIDOUZI/Shizuku>
 - Downloads and updates: <https://github.com/ZIDOUZI/Shizuku/releases>
-- Issues: <https://github.com/ZIDOUZI/Shizuku/issues>
 - Upstream project: <https://github.com/RikkaApps/Shizuku>
+- Upstream issues (Shizuku-related only): <https://github.com/RikkaApps/Shizuku/issues>
+
+This fork does not accept bug reports. If a problem is directly related to Shizuku, report it to the
+upstream project. Fork-specific issues are not accepted.
 
 The Android package ID remains `moe.shizuku.privileged.api` for compatibility with existing
 Shizuku clients. APKs built from this fork use their own signing key, so they can only replace an

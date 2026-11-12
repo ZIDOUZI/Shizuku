@@ -5,7 +5,6 @@ public class AppConstants {
     public static final String TAG = "ShizukuManager";
     public static final String REPOSITORY_URL = "https://github.com/ZIDOUZI/Shizuku";
     public static final String RELEASES_URL = REPOSITORY_URL + "/releases";
-    public static final String ISSUES_URL = REPOSITORY_URL + "/issues";
 
     public static final String NOTIFICATION_CHANNEL_STATUS = "starter";
     public static final String NOTIFICATION_CHANNEL_WORK = "work";
